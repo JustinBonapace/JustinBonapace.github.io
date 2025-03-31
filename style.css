@@ -1,24 +1,56 @@
-nav {
-    margin-bottom: 20px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-nav a {
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ddd;
     text-decoration: none;
-    color: #555;
-    margin-right: 10px;
 }
 
-nav a:hover {
-    color: #000;
+nav ul li a:hover {
+    color: white;
+}
+
+.cover {
+    background: #f4f4f4;
+    padding: 100px;
+    text-align: center;
+}
+
+section {
+    padding: 50px;
 }
 
 .project {
-    border: 1px solid #ddd;
-    padding: 15px;
+    border: 1px solid #ccc;
+    padding: 20px;
     margin-bottom: 15px;
     border-radius: 5px;
 }
 
-.project h3 {
-    margin-top: 0;
+footer {
+    background: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 10px;
 }
