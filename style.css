@@ -1,19 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
+nav {
+    margin-bottom: 20px;
 }
 
-h1 {
-    color: #333;
-}
-
-h2 {
+nav a {
+    text-decoration: none;
     color: #555;
+    margin-right: 10px;
 }
 
-ul {
-    list-style-type: square;
+nav a:hover {
+    color: #000;
 }
 
+.project {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
