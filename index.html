@@ -1,64 +1,71 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Justin Bonapace Portfolio</title>
-   <link rel="stylesheet" href="style.css" />
- </head>
- <body>
-   <!-- Navigation -->
-   <nav>
-     <div class="container nav-container">
-       <div class="logo">Justin Bonapace</div>
-       <div class="logo"><a href="index.html">Justin Bonapace</a></div>
-       <ul class="nav-links">
-         <li><a href="index.html">Home</a></li>
-         <li><a href="projects.html">Projects</a></li>
-         <li><a href="#contact">Contact</a></li>
-       </ul>
-     </div>
-   </nav>
- 
-   <!-- Hero Section -->
-   <header id="home">
-     <div class="hero">
-       <h1>Welcome to My Portfolio</h1>
-       <p>
-         I’m Justin, a developer passionate about creating modern web experiences.
-       </p>
-       <p>I’m Justin, a developer passionate about creating innovative engineering solutions.</p>
-     </div>
-   </header>
- 
-   <!-- Contact Section -->
-   <section id="contact">
-     <div class="container">
-       <h2>Contact</h2>
-       <p>
-         Got a question or want to work together? Send me a message!
-       </p>
-       <p>Got a question or want to work together? Send me a message!</p>
-       <form action="https://formspree.io/f/{your_form_id}" method="POST">
-         <label for="name">Name:</label>
-         <input type="text" id="name" name="name" required />
- 
-         <label for="email">Email:</label>
-         <input type="email" id="email" name="_replyto" required />
- 
-         <label for="message">Message:</label>
-         <textarea id="message" name="message" required></textarea>
- 
-         <button type="submit">Send Message</button>
-       </form>
-     </div>
-   </section>
- 
-   <!-- Footer -->
-   <footer>
-     <div class="container">
-       <p>&copy; 2025 Justin Bonapace. All rights reserved.</p>
-     </div>
-   </footer>
- </body>
- </html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Justin Bonapace</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 20px;
+      width: 260px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+      text-decoration: none;
+      color: black;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    .card h2 {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Justin Bonapace</h1>
+  <div class="grid">
+    <a class="card" href="resume.html">
+      <h2>Resume</h2>
+      <p>View my experience, education, and skills.</p>
+    </a>
+    <a class="card" href="projects.html">
+      <h2>Projects</h2>
+      <p>Check out some things I've built.</p>
+    </a>
+    <a class="card" href="contact.html">
+      <h2>Contact</h2>
+      <p>How to get in touch with me.</p>
+    </a>
+    <a class="card" href="about.html">
+      <h2>About</h2>
+      <p>Learn more about who I am.</p>
+    </a>
+  </div>
+</body>
+</html>
